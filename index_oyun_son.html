@@ -2,7 +2,7 @@
 <html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Hatırlı Satırlar</title>
+<title>Dilimizin Zenginlikleri Projesi · Klasik Eserler Sözlüğü</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700;900&family=Alegreya+Sans:ital,wght@0,500;0,700;0,800;1,500&family=Alegreya:ital,wght@1,500&display=swap" rel="stylesheet">
@@ -41,6 +41,7 @@ svg.i{width:1.15em;height:1.15em;vertical-align:-.2em;fill:none;stroke:currentCo
   box-shadow:0 0 0 3px var(--gold),0 0 0 6px #43281a,0 0 0 7px var(--gold)}
 .medallion svg{width:46px;height:46px;stroke:var(--gold-lite);fill:none;stroke-width:1.6}
 .cv h1{font-family:var(--display);font-weight:900;font-size:clamp(2.3rem,10vw,3.2rem);line-height:.98;letter-spacing:.02em;color:var(--gold-lite);text-shadow:0 2px 0 #2a170f,0 0 18px rgba(231,200,122,.25);text-wrap:balance}
+.cv h1 span{display:block}.cv .t-main{font-size:clamp(1.55rem,7.2vw,2.25rem);line-height:1.08}.cv .t-sub{font-size:clamp(.95rem,4.2vw,1.25rem);font-weight:700;letter-spacing:.08em;margin-top:.7em;color:#e9d6ad}
 .cv p{color:#e9d6ad;font-family:var(--quote);font-style:italic;font-size:1.05rem;max-width:26ch}
 .open-btn{margin-top:6px;border:0;border-radius:999px;padding:13px 28px;font-weight:800;font-size:1.1rem;background:linear-gradient(var(--gold-lite),var(--gold));color:#2a170f;box-shadow:0 4px 0 #6b4a1a,0 8px 18px rgba(0,0,0,.35);display:inline-flex;gap:10px;align-items:center}
 .open-btn:active{transform:translateY(3px);box-shadow:0 1px 0 #6b4a1a}
@@ -51,11 +52,11 @@ svg.i{width:1.15em;height:1.15em;vertical-align:-.2em;fill:none;stroke:currentCo
   radial-gradient(ellipse at 50% 0%,rgba(255,240,205,.08),transparent 70%),linear-gradient(160deg,var(--leather-2),var(--leather))}
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;align-items:center;gap:8px;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));background:rgba(42,23,15,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-bottom:1px solid rgba(185,138,46,.4)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:#2a170f}
-.brand{font-family:var(--display);font-weight:900;color:var(--gold-lite);font-size:1.15rem;margin-right:auto;letter-spacing:.03em;white-space:nowrap}
+.brand{font-family:var(--display);font-weight:900;color:var(--gold-lite);font-size:1.15rem;margin-right:auto;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .tb{border:1px solid rgba(231,200,122,.45);background:rgba(255,255,255,.04);color:#f1e2bf;border-radius:999px;padding:7px 12px;font-weight:700;font-size:.92rem;display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
 .tb[aria-pressed="true"]{background:var(--gold);color:#2a170f;border-color:var(--gold)}
 .tb .lbl{display:inline}
-@media (max-width:420px){.tb .lbl{display:none}.tb{padding:8px 10px}}
+@media (max-width:420px){.brand{font-size:.8rem;letter-spacing:0}.tb .lbl{display:none}.tb{padding:8px 10px}}
 
 #book{flex:1;display:flex;justify-content:center;align-items:flex-start;padding-block:16px 8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));perspective:1600px}
 .page{width:100%;max-width:560px;background:
@@ -243,8 +244,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 <section id="cover">
   <div class="cv"><div class="cv-frame">
     <div class="medallion" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 10c-6-4-14-4-18-2v28c4-2 12-2 18 2 6-4 14-4 18-2V8c-4-2-12-2-18 2z"/><path d="M24 10v28"/><path d="M11 16c3-1 6-1 9 1M11 22c3-1 6-1 9 1M28 17c3-2 6-2 9-1M28 23c3-2 6-2 9-1"/></svg></div>
-    <h1>Hatırlı<br>Satırlar</h1>
-    <p>Eski kelimelerin resimli ve sesli kitabı</p>
+    <h1><span class="t-main">DİLİMİZİN ZENGİNLİKLERİ PROJESİ</span><span class="t-sub">KLASİK ESERLER SÖZLÜĞÜ</span></h1>
+    <p>Klasik eserlerdeki kelimelerin resimli ve sesli kitabı</p>
     <button class="open-btn" id="openBook"><svg class="i" viewBox="0 0 24 24"><path d="M3 6c3-1.5 6-1.5 9 0v13c-3-1.5-6-1.5-9 0zM12 6c3-1.5 6-1.5 9 0v13c-3-1.5-6-1.5-9 0z"/></svg>Kitabı Aç</button>
     <small>Sesi açmayı unutma</small>
   </div></div>
@@ -252,7 +253,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 <div id="app" hidden>
   <header class="bar">
-    <span class="brand">Hatırlı Satırlar</span>
+    <span class="brand">KLASİK ESERLER SÖZLÜĞÜ</span>
     <button class="tb" id="ambBtn" aria-pressed="true" title="Ortam sesleri"><svg class="i" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg><span class="lbl">Ortam</span></button>
     <button class="tb" id="tocBtn"><svg class="i" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span class="lbl">Kelimeler</span></button>
     <button class="tb" id="gameBtn"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".8" fill="currentColor"/></svg><span class="lbl">Oyunlar</span></button>
@@ -287,7 +288,7 @@ var W=[
 ["Emanet","Korumak için birine veya bir yere bırakılan eşya.","📦","b","m_4","a_8"],["Gönül","Sevgi ve duyguların merkezi, kalp.","❤️","p","m_13","a_12"],["Gurbet","Doğup yaşanılmış yerden uzak yer.","🧳","h","m_14","a_11"],
 ["Hediye","Armağan.","🎁","b","m_16","a_13"],["Huzur","Gönül rahatlığı, erinç.","🕊️","h","m_17","a_14"],
 ["İkram","Konuğu ağırlama.","🍵","h","m_15","a_37"],["İstek","Bir şeyi arzu etmek, istemek.","⭐","t","m_18","a_38"],
-["Kervan","Eskiden yük taşıyan yolcu kafileleri.","🐪","g","n_kervan","a_16"],["Konuk","Evimize gelen kimse.","👋","w","n_konuk","a_17"],
+["Kervan","Geçmişte yük taşıyan yolcu kafileleri.","🐪","g","n_kervan","a_16"],["Konuk","Evimize gelen kimse.","👋","w","n_konuk","a_17"],
 ["Macera","Heyecanlı ve şaşırtıcı olay.","🧭","o","n_macera","a_19"],["Merhamet","Acıma ve başkalarına şefkatle yaklaşma duygusu.","🤗","b","n_merhamet","a_20"],
 ["Ozan","Halk şairi, şiir yazan, şair.","🎻","w","n_ozan","a_23"],["Sultan","Hükümdar, padişah.","👑","b","n_sultan","a_28"],["Şifa","Hastalıktan kurtulma.","🌿","w","n_sifa","a_39"],["Edepli","Uslu, ince, terbiyeli, iyi ahlaklı.","🙏","p","r_0","a_7"],
 ["Pabuç","Ayakkabı.","👞","b","n_pabuc","a_24"],
@@ -305,7 +306,7 @@ var W=[
 ["Tabip","Hekim, doktor.","🩺","b","q_6","a_29"],
 ["Örf","Gelenek, töre, âdet.","📜","h","q_7","a_35"],
 ["Rivayet","Söylenti.","🗣️","b","q_8","a_27"],
-["Vatan","Yurt.","🚩","w","n_vatan","a_101"],["Yadigâr","Eski zamanlardan kalan güzel hatıra.","🕰️","o","q_0","a_31"],["Zanaat","El becerisi gerektiren meslek.","🔨","b","n_zanaat","a_32"],];
+["Vatan","Yurt.","🚩","w","n_vatan","a_101"],["Yadigâr","Geçmiş zamanlardan kalan güzel hatıra.","🕰️","o","q_0","a_31"],["Zanaat","El becerisi gerektiren meslek.","🔨","b","n_zanaat","a_32"],];
 (function(){
 "use strict";
 var $=function(id){return document.getElementById(id)};
